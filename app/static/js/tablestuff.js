@@ -75,7 +75,7 @@ $(document).ready(function() {
         { "orderData": 7, "targets": 3 },
         { "orderData": 8, "targets": 4 },
         { "className": "text-center", "targets": [4,5,6] },
-        { "orderable": false, "targets": [1] }
+        { "orderable": false, "targets": [0, 1, 5, 6] }
         ]
     });
 
