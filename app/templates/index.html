@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<table id="serverlist" class="table table-sm table-striped table-hover" style="width:100%">
+    <thead>
+    <tr>
+        <th></th>
+        <th></th>
+        <th>Name</th>
+        <th>Players</th>
+        <th>Time</th>
+        <th>Hive</th>
+        <th>Mode</th>
+        <th></th>
+        <th></th>
+    </tr>
+    </thead>
+</table>
+<script src="{{ url_for('static', filename='js/tablestuff.js') }}"></script>
+{% endblock %}
