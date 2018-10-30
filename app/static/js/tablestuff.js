@@ -12,7 +12,6 @@ $(document).ready(function() {
             { "data": "h" },    // hive
             { "data": "m" },    // mode
             { "data": "a" },    // player count for table sorting
-            { "data": "b" },    // day or night for sorting by time
             { "data": "c" },    // minutes
             { "data": "s" }
         ],
@@ -74,8 +73,7 @@ $(document).ready(function() {
         { "visible": false, "targets": [7, 8, 9, 10] },
         { "orderData": 7, "targets": 3 },
         { "orderData": 8, "targets": 4 },
-        { "className": "text-center", "targets": [4,5,6] },
-        { "orderable": false, "targets": [0, 1, 5, 6] }
+        { "orderable": false, "targets": [0, 1, 4, 5, 6] }
         ]
     });
 

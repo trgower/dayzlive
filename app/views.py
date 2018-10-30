@@ -33,7 +33,6 @@ def servers():
         "h": s.hive,
         "m": s.mode,
         "a": s.num_players,
-        "b": time_badge_sm(s.hours),
         "c": '%02d' % s.minutes,
         "s": s.time_speed,
     } for s in rservers]
