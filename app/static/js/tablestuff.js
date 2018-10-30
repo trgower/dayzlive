@@ -70,7 +70,7 @@ $(document).ready(function() {
                  return '<span title="' + data + '" class="flag-icon flag-icon-' + data + '"></span>';
             }, "targets": [1]
         },
-        { "visible": false, "targets": [7, 8, 9, 10] },
+        { "visible": false, "targets": [7, 8, 9] },
         { "orderData": 7, "targets": 3 },
         { "orderData": 8, "targets": 4 },
         { "orderable": false, "targets": [0, 1, 4, 5, 6] }
